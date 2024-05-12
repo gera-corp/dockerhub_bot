@@ -44,6 +44,11 @@ To run this bot, you will need to set the following environment variables:
    python3 main.py
 
 ## Available Commands
+example:
+```
+    /add grafana/grafana
+    /remove grafana/grafana
+```
 ```
     /add <image_name> :Add a new Docker image to the monitoring list. Use the full repository name, e.g., library/nginx.
     /remove <image_name> :Remove an image from the monitoring list.
