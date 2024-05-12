@@ -29,7 +29,7 @@ To run this bot, you will need to set the following environment variables:
 
 2. **Install Dependencies**:
    ```bash
-   pip3 install requests -r requirements.txt
+   pip3 install requests
 
 3. **Set Environment Variables**:
    ```bash

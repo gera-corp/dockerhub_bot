@@ -14,6 +14,6 @@ ENV DATA_FILE="data/docker_images.json"
 RUN mkdir -p /bot/data
 WORKDIR /bot
 COPY bot/* .
-RUN pip3 install -r /bot/requirements.txt
+RUN pip3 install requests
 
 CMD ["python3", "main.py"]
